@@ -1,0 +1,1 @@
+This is an automated chatbot which will answer Frequently Asked Questions related to Covid-19.
