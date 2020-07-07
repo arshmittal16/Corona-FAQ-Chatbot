@@ -35,7 +35,7 @@
 - tell me about covid
 - can you tell me something about corona virus?
 
-##intent:symptoms_corona
+## intent:symptoms_corona
 - What are the symptoms of novel coronavirus? 
 - what are its symptoms?
 - What are the symptoms of covid-19?
@@ -46,7 +46,7 @@
 - how will it be diagnosed?
 - how to identify corona virus?
 
-##intent:corona_spread
+## intent:corona_spread
 - how does corona spread?
 - how can it spread?
 - how can covid-19 spread?
@@ -56,4 +56,68 @@
 - how is it going to spread?
 - can it spread?
 
-##intent: 
+## intent:infected
+- how can I get infected with corona virus?
+- how can I get infected with corona?
+- how can I get infected with covid-19?
+- how can I get infected?
+
+## intent: vaccine
+- is there a vaccine available?
+- is there any vaccine for it?
+- is there any vaccine available?
+- vaccine?
+
+## intent:treatment
+- Is there a treatment for the novel coronavirus?
+- is there any treatment availabble?
+- is there any treatment for corona virus?
+- Is there no treatment?
+- Is it treatable?
+- can it be treated?
+
+## intent:protect
+- What can I do to protect myself?
+- how can I protect myself?
+- how can one protect himself?
+- how to protect ourselves from corona?
+- how to protect from it?
+
+## intent:sars
+- is it like SARS?
+- is it like sars?
+- is coronavirus like sars?
+- is it same as SARS?
+- is it different from sars?
+
+## intent:origin
+- did it originate from bats?
+- how did it originate?
+- where did it originate?
+- where was it originated?
+
+## intent:WHO
+- How is WHO responding to the emergence of this novel coronavirus? 
+- is WHO doing anything about it?
+- How is WHO helping?
+- what is WHO doing about it?
+
+## intent:mask
+- can face mask help?
+- will a mask help?
+- can a mask help me?
+- is it good to wear a mask?
+- should I wear a mask?
+- should i wear a mask everytime?
+
+## intent:warm
+- will corona virus die in heat?
+- can corona live in heat?
+- will corona end in summer?
+- will it get better in summers?
+- will corona get over in summers?
+- will corona die in heat?
+- will corona virus end in warm areas?
+- will corona virus not go to warm counries?
+
+## intent:
