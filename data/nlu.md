@@ -62,7 +62,7 @@
 - how can I get infected with covid-19?
 - how can I get infected?
 
-## intent: vaccine
+## intent:vaccine
 - is there a vaccine available?
 - is there any vaccine for it?
 - is there any vaccine available?
