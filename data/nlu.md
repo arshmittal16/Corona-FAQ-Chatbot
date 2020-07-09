@@ -6,6 +6,7 @@
 - hi
 - good morning
 - good evening
+- how are you
 
 ## intent:goodbye
 - bye
@@ -109,6 +110,7 @@
 - is it good to wear a mask?
 - should I wear a mask?
 - should i wear a mask everytime?
+- how will mask help?
 
 ## intent:warm
 - will corona virus die in heat?
@@ -120,4 +122,9 @@
 - will corona virus end in warm areas?
 - will corona virus not go to warm counries?
 
-## intent:
+## intent:protect
+- what can i do for my protection?
+- What can I do to protect myself?
+- How to protect myself?
+- what precautions should I follow?
+- how to prevent myself from get infected?
