@@ -111,6 +111,9 @@
 - should I wear a mask?
 - should i wear a mask everytime?
 - how will mask help?
+- how to wear mask?
+- how to make mask?
+- how to wash mask?
 
 ## intent:warm
 - will corona virus die in heat?
@@ -128,3 +131,4 @@
 - How to protect myself?
 - what precautions should I follow?
 - how to prevent myself from get infected?
+-

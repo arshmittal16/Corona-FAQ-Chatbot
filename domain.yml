@@ -15,7 +15,7 @@ responses:
   - text: Hey! How are you?
   utter_intro: 
     - text: "This is a new strain of coronavirus that has not been previously identified in humans.
-Coronaviruses are a large family of viruses that are known to cause illness in humans and animals. In humans, this large family of viruses are known to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome (SARS). "
+       Coronaviruses are a large family of viruses that are known to cause illness in humans and animals. In humans, this large family of viruses are known to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome (SARS). "
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -27,7 +27,13 @@ Coronaviruses are a large family of viruses that are known to cause illness in h
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
-  
+  utter_protect:
+  - text: "Exactly how people become infected with this virus is not known at this time. However, some general measures that would be prudent and help prevent the acquisition of any respiratory illness are to avoid close contact, when possible, with anyone who shows symptoms of illness (coughing and sneezing), and to maintain good hand hygiene
+        Here You can know more about this https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html " 
+    
+    
+
+
 actions:
 - utter_greet
 - utter_cheer_up
