@@ -1,28 +1,38 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
-
 ## intro
 * greet
-- utter_greet
-* corona_intro
-- utter_intro
-
-## sad path 2
-* greet
   - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+* corona_intro
+  - utter_intro
 
-## say goodbye
+## goodbye
 * goodbye
   - utter_goodbye
 
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## symp
+* greet
+  - utter_greet
+* symptoms_corona
+  - utter_symp
+
+## spread
+* greet 
+  - utter_greet
+* corona_spread
+  - utter_spread
+
+## infected
+* greet 
+  - utter_greet
+ * infected 
+  - utter_infected
+
+## vaccine
+* greet 
+  - utter_greet
+* vaccine
+  - utter_vaccine
+  

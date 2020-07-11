@@ -2,19 +2,28 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greet
+- greeting
 - goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
 - bot_challenge
+- corona_intro
+- symptoms_corona
+- coronna_spread
+- infected
+- vaccine
+- treatment
+- protect
+- sars
+- origin
+- WHO
+- mask
+- warm
 
 responses:
   utter_greet:
   - text: Hey! How are you?
   utter_intro: 
     - text: "This is a new strain of coronavirus that has not been previously identified in humans.
+<<<<<<< HEAD
        Coronaviruses are a large family of viruses that are known to cause illness in humans and animals. In humans, this large family of viruses are known to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome (SARS). "
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
@@ -23,8 +32,11 @@ responses:
   - text: Did that help you?
   utter_happy:
   - text: Great, carry on!
+=======
+Coronaviruses are a large family of viruses that are known to cause illness in humans and animals. In humans, this large family of viruses are known to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome (SARS). "
+>>>>>>> 01f79943ce0a167aaac6405c1b73113f96713d70
   utter_goodbye:
-  - text: Bye
+  - text: "Stay Safe! Bye!"
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_protect:
