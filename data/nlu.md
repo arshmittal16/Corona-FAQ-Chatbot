@@ -120,6 +120,7 @@
 - how to wear mask?
 - how to make mask?
 - how to wash mask?
+- can i wear fabric mask?
 
 ## intent:warm
 - will corona virus die in heat?
@@ -143,3 +144,31 @@
 - Is going to gym is safe?
 - Should I go to gym near by my house?
 
+## intent:excersice
+- How to keep myself fit during lockdown?
+- What should i do for my health during these days?
+- Can i go for a morning or evening walk?
+- what kind of exercises one can do at home?
+
+## intent:notdo
+- What should I donot do?
+- Is there anything I should not do?
+
+## intent:pets
+- Can humans get coronavirus from dogs or cats?
+- Can I get infected from my pet?
+- Can I get infected from my dog?
+- Can I get infected from my cat?
+- Is it safe to play with pet?
+
+## intent:trip
+- Should I cancel my trip?
+- can I go to trip?
+- can I go to visit green zone or covid free areas?
+- is it safe to go to trip with friends or family
+
+## intent:order
+- is it safe to order take-out?
+- is it safe to order anything from online stores
+- What should I do while recieving any order?
+- can i order food from restaurants? 
