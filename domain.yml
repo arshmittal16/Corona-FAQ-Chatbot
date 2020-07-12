@@ -2,46 +2,169 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greet
+- greeting
 - goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
+- corona_intro
+- symptoms_corona
+- corona_spread
+- infected
+- vaccine
+- treatment
+- protect
+- sars
+- origin
+- WHO
+- mask
+- warm
+- shopping
+- gym
+- exercise
+- donate
+- pets
+- trip
+- order
 - bot_challenge
-
+- excersice
 responses:
   utter_greet:
-  - text: Hey! How are you?
-  utter_intro: 
-    - text: "This is a new strain of coronavirus that has not been previously identified in humans.
-       Coronaviruses are a large family of viruses that are known to cause illness in humans and animals. In humans, this large family of viruses are known to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome (SARS). "
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
+  - text: Hey There! How can I help you?
   utter_goodbye:
-  - text: Bye
+  - text: Good Bye! Stay Safe! Have a nice day!
+  utter_intro:
+  - text: 'This is a new strain of coronavirus that has not been previously identified
+      in humans. Coronaviruses are a large family of viruses that are known to cause
+      illness in humans and animals. In humans, this large family of viruses are known
+      to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome
+      (SARS). '
+  utter_symp:
+  - text: 'In confirmed cases of illness in humans, common symptoms have been acute,
+      serious respiratory illness with fever, cough, shortness of breath, and breathing
+      difficulties. Based on current clinical experience, the infection generally
+      presents as pneumonia. It has caused kidney failure and death in some cases.
+      It is important to note that the current understanding of the illness caused
+      by this infection is based on a limited number of cases and may change as more
+      information becomes available. '
+  utter_spread:
+  - text: This is not much known with certainty at this time. The cases occurring
+      in the same family raises the possibility of limited human-to-human transmission.
+      Alternatively, it is possible that the infected family members were exposed
+      to the same source of infection, for example, in a household or workplace.
+  utter_infected:
+  - text: To date, we do not know how humans have become infected with this virus.
+      Investigations are underway to determine the virus source, types of exposure
+      that lead to infection, mode of transmission and the clinical pattern and course
+      of disease.
+  utter_vaccine:
+  - text: There is no vaccine currently available.
   utter_iamabot:
-  - text: I am a bot, powered by Rasa.
-  utter_protect:
-  - text: "Exactly how people become infected with this virus is not known at this time. However, some general measures that would be prudent and help prevent the acquisition of any respiratory illness are to avoid close contact, when possible, with anyone who shows symptoms of illness (coughing and sneezing), and to maintain good hand hygiene
-        Here You can know more about this https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html " 
+  - text: I am a bot, powered by Rasa and made by arshmittal16 and yashb007
+  utter_treat:
+  - text: There is no specific treatment for disease caused by novel coronavirus.
+      However, many of the symptoms caused by this virus can be treated and therefore
+      treatment should be based on the symptoms of the patient. Moreover, supportive
+      care for infected persons can be highly effective.
+  utter_pro:
+  - text: Exactly how people become infected with this virus is not known at this
+      time. However, some general measures that would be prudent and help prevent
+      the acquisition of any respiratory illness are to avoid close contact, when
+      possible, with anyone who shows symptoms of illness (coughing and sneezing),
+      and to maintain good hand hygiene.
+  utter_sars:
+  - text: 'SARS is a coronavirus that was identified in 2003 and belongs to the same
+      large family of viruses as the novel coronavirus. Therefore, SARS and the novel
+      coronavirus are distantly related. Both viruses are capable of causing severe
+      disease. However, they have important differences based on current information.
+      Most importantly, the novel coronavirus does not appear to transmit easily between
+      people while the SARS virus was much more transmissible. '
+  utter_origin:
+  - text: 'Some say it originated in the wet market of Wuhan, China but This is one
+      possibility but the origin of the virus has not yet been established. '
+  utter_who:
+  - text: Since the emergence of this virus, WHO has been working under the International
+      Health Regulations to provide information to Member States. WHO is also working
+      with involved countries and international partners to coordinate the global
+      health response, including the provision of updated information on the situation,
+      guidance to health authorities and technical health agencies on interim surveillance
+      recommendations, laboratory testing of cases, infection control, and clinical
+      management, based on the current understanding of the novel virus and the disease
+      in humans. WHO will continue to work with Member States and international health
+      partners and share updated information as it is made available.
   utter_mask:
-  - text: "The virus can spread between people interacting in close proximity—for example, speaking, coughing, or sneezing—even if those people are not exhibiting symptoms. 
-      So Mask will help you "   
-    
-
-
+  - text: The virus can spread between people interacting in close proximity—for example,
+      speaking, coughing, or sneezing—even if those people are not exhibiting symptoms.
+      In light of this evidence, CDC recommends wearing cloth face coverings in public
+      settings where other physical distancing measures are difficult to maintain
+      (for example, grocery stores and pharmacies) especially in areas of significant
+      community-based transmission. people who are ill with a respiratory disease
+      can wear a mask to prevent spreading the illness to others.
+  utter_warm:
+  - text: It is not yet known whether weather and temperature affect the spread of
+      COVID-19. Some other viruses, like those that cause the common cold and flu,
+      spread more during cold weather months but that does not mean it is impossible
+      to become sick with these viruses during other months.  There is much more to
+      learn about the transmissibility, severity, and other features associated with
+      COVID-19 and investigations are ongoing.
+  utter_shop:
+  - text: It’s best not to make unnecessary trips, but if you need to go to a grocery
+      store, it’s important to maintain social and physical distancing as you shop,
+      and to clean your hands often while shopping and as soon as you get home.
+  utter_gym:
+  - text: As the new coronavirus is spreading, be cautious about all possible exposures,
+      including at the gym or fitness center. The virus isn’t spread through perspiration
+      (sweat), but items touched by many people (barbells, etc.) could pose a risk.
+      In order to practice social and physical distancing during the COVID-19 pandemic,
+      it is best to avoid public places at this time.
+  utter_exer:
+  - text: It is recommended to do light hearted exercise or yoga at home to boost
+      your immunity.
+  utter_donate:
+  - text: In healthcare settings across the United States, donated blood is a lifesaving,
+      essential part of caring for patients. The need for donated blood is constant,
+      and blood centers are open and in urgent need of donations. CDC encourages people
+      who are well to continue to donate blood if they are able, even if they are
+      practicing social distancing because of COVID-19. CDC is supporting blood centers
+      by providing recommendations that will keep donors and staff safe. Examples
+      of these recommendations include spacing donor chairs 6 feet apart, thoroughly
+      adhering to environmental cleaning practices, and encouraging donors to make
+      donation appointments ahead of time.
+  utter_pets:
+  - text: At this time, experts recommend keeping pets indoors or avoiding socialization
+      of pets with other animals, and maintaining good hygiene when handling or caring
+      for your animals.
+  utter_trip:
+  - text: "At this time, social and physical distancing are important to follow, so\
+      \ overall, travel is discouraged. Outbreaks of the new coronavirus and COVID-19,\
+      \ the disease it causes, are occurring in the United States and in countries\
+      \ around the world. The Centers for Disease Control and Prevention (CDC) has\
+      \ updated travel information on a range of destinations.\nTravelers should be\
+      \ cautious about cruise ship travel and situations that involve crowded places.\
+      \ You are less likely to catch the new coronavirus on airplanes because of circulation\
+      \ and filtering, but you may be asked about your infection risk when you book\
+      \ a flight. And be aware that you may be prevented from returning from certain\
+      \ sites should they be on lockdown."
+  utter_order:
+  - text: According to the Food and Drug Administration (FDA), there have not been
+      any cases of COVID-19 known to be caused from eating food or handling food packaging.
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_goodbye
+- utter_intro
+- utter_symp
+- utter_spread
+- utter_infected
+- utter_vaccine
 - utter_iamabot
-- utter_protect
+- utter_treat
+- utter_pro
+- utter_sars
+- utter_origin
+- utter_who
 - utter_mask
+- utter_warm
+- utter_shop
+- utter_gym
+- utter_exer
+- utter_donate
+- utter_pets
+- utter_trip
+- utter_order
+- utter_goodbye

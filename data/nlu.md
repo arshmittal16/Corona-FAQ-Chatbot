@@ -150,9 +150,11 @@
 - Can i go for a morning or evening walk?
 - what kind of exercises one can do at home?
 
-## intent:notdo
-- What should I donot do?
-- Is there anything I should not do?
+## intent:donate
+- Is it okay for me to donate blood?
+- Can I donate blood?
+- Is it safe for me to donate blood?
+- Is it goodd for me to donate blood these times?
 
 ## intent:pets
 - Can humans get coronavirus from dogs or cats?
@@ -172,3 +174,5 @@
 - is it safe to order anything from online stores
 - What should I do while recieving any order?
 - can i order food from restaurants? 
+
+## intent:
