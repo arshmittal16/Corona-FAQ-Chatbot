@@ -2,28 +2,19 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- greeting
+- greet
 - goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
 - bot_challenge
-- corona_intro
-- symptoms_corona
-- coronna_spread
-- infected
-- vaccine
-- treatment
-- protect
-- sars
-- origin
-- WHO
-- mask
-- warm
 
 responses:
   utter_greet:
   - text: Hey! How are you?
   utter_intro: 
     - text: "This is a new strain of coronavirus that has not been previously identified in humans.
-<<<<<<< HEAD
        Coronaviruses are a large family of viruses that are known to cause illness in humans and animals. In humans, this large family of viruses are known to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome (SARS). "
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
@@ -32,17 +23,16 @@ responses:
   - text: Did that help you?
   utter_happy:
   - text: Great, carry on!
-=======
-Coronaviruses are a large family of viruses that are known to cause illness in humans and animals. In humans, this large family of viruses are known to cause illness ranging from the common cold to Severe Acute Respiratory Syndrome (SARS). "
->>>>>>> 01f79943ce0a167aaac6405c1b73113f96713d70
   utter_goodbye:
-  - text: "Stay Safe! Bye!"
+  - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_protect:
   - text: "Exactly how people become infected with this virus is not known at this time. However, some general measures that would be prudent and help prevent the acquisition of any respiratory illness are to avoid close contact, when possible, with anyone who shows symptoms of illness (coughing and sneezing), and to maintain good hand hygiene
         Here You can know more about this https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html " 
-    
+  utter_mask:
+  - text: "The virus can spread between people interacting in close proximity—for example, speaking, coughing, or sneezing—even if those people are not exhibiting symptoms. 
+      So Mask will help you "   
     
 
 
@@ -53,3 +43,5 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
+- utter_protect
+- utter_mask

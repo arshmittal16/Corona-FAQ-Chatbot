@@ -35,6 +35,7 @@
 - tell me about corona
 - tell me about covid
 - can you tell me something about corona virus?
+- why this disease called corona virus?
 
 ## intent:symptoms_corona
 - What are the symptoms of novel coronavirus? 
@@ -63,7 +64,7 @@
 - how can I get infected with covid-19?
 - how can I get infected?
 
-## intent:vaccine
+## intent: vaccine
 - is there a vaccine available?
 - is there any vaccine for it?
 - is there any vaccine available?
@@ -124,6 +125,7 @@
 - will corona die in heat?
 - will corona virus end in warm areas?
 - will corona virus not go to warm counries?
+- will warm weather stop the outbreak of COVID-19?
 
 ## intent:protect
 - what can i do for my protection?
@@ -131,4 +133,3 @@
 - How to protect myself?
 - what precautions should I follow?
 - how to prevent myself from get infected?
--
