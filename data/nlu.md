@@ -84,6 +84,11 @@
 - how can one protect himself?
 - how to protect ourselves from corona?
 - how to protect from it?
+- what can i do for my protection?
+- What can I do to protect myself?
+- How to protect myself?
+- what precautions should I follow?
+- how to prevent myself from get infected?
 
 ## intent:sars
 - is it like SARS?
@@ -127,9 +132,14 @@
 - will corona virus not go to warm counries?
 - will warm weather stop the outbreak of COVID-19?
 
-## intent:protect
-- what can i do for my protection?
-- What can I do to protect myself?
-- How to protect myself?
-- what precautions should I follow?
-- how to prevent myself from get infected?
+## intent:shopping
+- Is grocery shopping safe during the coronavirus pandemic?
+- Is going for shopping is safe?
+- Should I stop going to the shopping?
+
+## intent:gym
+- Should I stop going to the gym?
+- Can i go to gym?
+- Is going to gym is safe?
+- Should I go to gym near by my house?
+
