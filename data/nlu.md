@@ -8,6 +8,17 @@
 - good evening
 - how are you
 
+## intent:cases
+- how many cases are there in the world?
+- how many cases are there in india?
+- how many cases are there yet?
+- cases
+
+## intent:start
+- start
+- Start
+- /start
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -151,7 +162,7 @@
 - what kind of exercises one can do at home?
 
 ## intent:donate
-- Is it okay for me to donate blood?
+- Is it normal for me to donate blood?
 - Can I donate blood?
 - Is it safe for me to donate blood?
 - Is it goodd for me to donate blood these times?

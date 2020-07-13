@@ -6,6 +6,7 @@ intents:
 - goodbye
 - corona_intro
 - symptoms_corona
+- start
 - corona_spread
 - infected
 - vaccine
@@ -21,6 +22,7 @@ intents:
 - exercise
 - donate
 - pets
+- cases
 - trip
 - order
 - bot_challenge
@@ -49,6 +51,8 @@ responses:
       in the same family raises the possibility of limited human-to-human transmission.
       Alternatively, it is possible that the infected family members were exposed
       to the same source of infection, for example, in a household or workplace.
+  utter_start:
+    - text: "Hey! Your bot is up and running!"
   utter_infected:
   - text: To date, we do not know how humans have become infected with this virus.
       Investigations are underway to determine the virus source, types of exposure
@@ -77,8 +81,8 @@ responses:
       Most importantly, the novel coronavirus does not appear to transmit easily between
       people while the SARS virus was much more transmissible. '
   utter_origin:
-  - text: 'Some say it originated in the wet market of Wuhan, China but This is one
-      possibility but the origin of the virus has not yet been established. '
+  - text: 'Some say it originated in the wet market of Wuhan, China but this is one
+      possibility. And the origin of the virus has not yet been established. '
   utter_who:
   - text: Since the emergence of this virus, WHO has been working under the International
       Health Regulations to provide information to Member States. WHO is also working
@@ -127,6 +131,9 @@ responses:
       of these recommendations include spacing donor chairs 6 feet apart, thoroughly
       adhering to environmental cleaning practices, and encouraging donors to make
       donation appointments ahead of time.
+  utter_cases:
+  - text: I don't have an active Database for the moment, but you can visit this website
+      and get a clear idea. https://bing.com/covid
   utter_pets:
   - text: At this time, experts recommend keeping pets indoors or avoiding socialization
       of pets with other animals, and maintaining good hygiene when handling or caring
@@ -159,6 +166,7 @@ actions:
 - utter_origin
 - utter_who
 - utter_mask
+- utter_cases
 - utter_warm
 - utter_shop
 - utter_gym
@@ -168,3 +176,4 @@ actions:
 - utter_trip
 - utter_order
 - utter_goodbye
+- utter_start
