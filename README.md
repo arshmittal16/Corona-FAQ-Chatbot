@@ -15,5 +15,8 @@ Methodology:
   What is a subject and Covid is an intent
 3. The subject and intent are then matched with an answer and the output is shown to the user.
 
-Input/Output Screenshots:
- 
+Input/Output Screenshots: <br>
+
+![alt text](https://github.com/arshmittal16/Corona-FAQ-Chatbot/blob/master/P1.jpeg)
+<br>
+![alt text](https://github.com/arshmittal16/Corona-FAQ-Chatbot/blob/master/P2.jpeg)
